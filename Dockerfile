@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:10
 
 # Let's start with some basic stuff.
 RUN apt-get update -qq && apt-get install -qqy \
